@@ -81,6 +81,6 @@ function rattleimage(primero){
 	turno = (turno % 4) + 1;
 	
 	rep++;
-	setTimeout("rattleimage(false)",10);
+	setTimeout("rattleimage(false)",40);
 
 }
