@@ -1,8 +1,28 @@
 const FIN_NIVEL = true;
 
 function Palabras(){
-	this.correctas = 0;
-	this.incorrectas = 0;
+	this.resultados = {
+		ordenCanonico: {
+			correctas: 0,
+			incorrectas: 0,
+			totales: 0
+		},
+		ordenNoCanonico: {
+			correctas: 0,
+			incorrectas: 0,
+			totales: 0
+		},
+		reversibles: {
+			correctas: 0,
+			incorrectas: 0,
+			totales: 0
+		},
+		concordancia: {
+			correctas: 0,
+			incorrectas: 0,
+			totales: 0
+		}
+	};
 	this.niveles = [];
 	this.nivelActual = 0;
 	this.subnivelActual = 0;
@@ -20,9 +40,12 @@ Palabras.prototype.jugar_nivel = function(num_nivel){
 	//Se limpia la pantalla del juego, se mezclan los subniveles
 	//y se juega el primer subnivel.
 	var level = this.niveles[num_nivel];
-	
-	this.correctas = 0;
-	this.incorrectas = 0;
+	for(var property in this.resultados){
+		if(this.resultados.hasOwnProperty(property)){
+			this.resultados[property].correctas = 0;
+			this.resultados[property].incorrectas = 0;
+		}
+	}
 	level = shuffle(level);
 	var subnivel = level[0];
 	this.subnivelActual = 0;
@@ -36,11 +59,12 @@ Palabras.prototype.cambiarSubnivel = function(){
 	var level = this.niveles[this.nivelActual];
 	var sublevel = level[this.subnivelActual];
 	if (sublevel.fueCorrecto()){
-		this.correctas++;
+		this.resultados[sublevel.type].correctas++;
 	}else{
-		this.incorrectas++;
+		this.resultados[sublevel.type].incorrectas++;
 	}
-
+	this.resultados[sublevel.type].totales++;
+	
 	this.subnivelActual++;
 	if (this.subnivelActual < level.length){
 		sublevel = level[this.subnivelActual];
@@ -52,5 +76,5 @@ Palabras.prototype.cambiarSubnivel = function(){
 };
 
 Palabras.prototype.getPuntaje = function(){
-	return [this.correctas, this.incorrectas];
+	return this.resultados;
 };

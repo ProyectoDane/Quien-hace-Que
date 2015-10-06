@@ -16,17 +16,18 @@ var timeout_change = 5000;
 function crear_nivel(conf_nivel){
 	var subniveles = [];
 	for (var i = 0; i < conf_nivel.length; i++){
-		var sonido = conf_nivel[i][0].sound;
-		var correcta = conf_nivel[i][0].correct;
-		var texto = conf_nivel[i][0].text;
-		var sonidoCorrecto = conf_nivel[i][0].wordSound;
+		var configuration = conf_nivel[i][0];
+		var sonido = configuration.sound;
+		var correcta = configuration.correct;
+		var texto = configuration.text;
+		var sonidoCorrecto = configuration.wordSound;
 		var opciones = [];
 		for (var j = 1; j < conf_nivel[i].length;j++){
 			var conf = conf_nivel[i][j];
 			var op = new OpcionJuego(conf.image, j == correcta);
 			opciones.push(op);
 		}
-		var nivel = new Nivel(texto,sonido, sonidoCorrecto, opciones, conf_nivel.length);
+		var nivel = new Nivel(texto,sonido, sonidoCorrecto, opciones, conf_nivel.length, configuration.type);
 		subniveles.push(nivel);
 	}
 	return subniveles;
@@ -86,15 +87,22 @@ function llamarCambio(){
 	document.getElementById("botonSiguiente").style.visibility = "hidden";
 	var cambio = actual.cambiarSubnivel();
 	if (cambio == FIN_NIVEL){
-		var correctas = actual.getPuntaje();
-		totalCorrectas += correctas[0];
-		totalIncorrectas += correctas[1];
-		var totales = totalCorrectas + totalIncorrectas;
-		$('#correctas').empty();
-		$('#incorrectas').empty();
-		$('#correctas').append("<td><img src='images/check1.png' alt='check'/></td><td>RESPUESTAS CORRECTAS<td><td class='right'>" + totalCorrectas + "/" + totales + " (" + parseFloat((totalCorrectas * 100 / totales).toPrecision(2)) + "%)</td>");
-		$('#incorrectas').append("<td><img src='images/check2.png' alt='check'/></td><td>RESPUESTAS INCORRECTAS<td><td class='wrong'>" + totalIncorrectas + "/" + totales + " (" + parseFloat((totalIncorrectas * 100 / totales).toPrecision(2)) + "%)</td>");
-
+		var puntaje = actual.getPuntaje();
+		for(var property in puntaje){
+			if(puntaje.hasOwnProperty(property)){
+				var correctas = puntaje[property].correctas;
+				var incorrectas = puntaje[property].incorrectas;
+				var totales = puntaje[property].totales;
+				var porcentajeCorrectas = 0;
+				var porcentajeIncorrectas = 0;
+				if(totales > 0 ){
+					porcentajeCorrectas = parseFloat((correctas * 100 / totales).toPrecision(2));
+					porcentajeIncorrectas = parseFloat((incorrectas * 100 / totales).toPrecision(2));
+				}
+				$('#' + property + 'Correctas').html("<img src='images/check1.png' alt='check'/> <span class='right'>" + correctas + "/" + totales + " (" + porcentajeCorrectas + "%)</span>");
+				$('#' + property + 'Incorrectas').html("<img src='images/check2.png' alt='check'/> <span class='wrong'>" + incorrectas + "/" + totales + " (" + porcentajeIncorrectas + "%)</span>");
+			}
+		}
 		$.mobile.changePage('#select_category');
 	}
 }

@@ -1,5 +1,5 @@
 
-function Nivel (text, sound, correctSound, opciones, totalLevels){
+function Nivel (text, sound, correctSound, opciones, totalLevels, type){
 	this.puntuado = false;
 	this.correcto = false;
 	this.audio = sound;
@@ -7,6 +7,7 @@ function Nivel (text, sound, correctSound, opciones, totalLevels){
 	this.texto = text
 	this.correctSound = correctSound;
 	this.totalLevels = totalLevels;
+	this.type = type;
 };
 
 Nivel.prototype.jugarInstancia = function(){
