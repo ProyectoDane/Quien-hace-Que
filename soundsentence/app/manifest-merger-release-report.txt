@@ -123,6 +123,8 @@ ADDED from AndroidManifest.xml:52:9
 		ADDED from AndroidManifest.xml:54:17
 	android:label
 		ADDED from AndroidManifest.xml:52:48
+	android:configChanges
+		ADDED from AndroidManifest.xml:54:56
 	android:theme
 		ADDED from AndroidManifest.xml:53:17
 	android:name
