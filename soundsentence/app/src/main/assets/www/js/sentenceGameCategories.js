@@ -7,9 +7,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'La nena llora',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/La nena llora.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/1.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La nena llora.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/1.mp3'
       },
       {
         'image': 'images/La nena llora.jpg'
@@ -28,9 +28,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'La mujer estornuda',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/La mujer estornuda.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/2.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La mujer estornuda.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/2.mp3'
       },
       {
         'image': 'images/La mujer estornuda.jpg'
@@ -49,9 +49,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'El perro sube',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El perro sube.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/3.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El perro sube.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/3.mp3'
       },
       {
         'image': 'images/El perro sube.jpg'
@@ -70,9 +70,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'La mujer va de vacaciones',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/La mujer va de vacaciones.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/4.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La mujer va de vacaciones.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/4.mp3'
       },
       {
         'image': 'images/La mujer va de vacaciones.jpg'
@@ -91,9 +91,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'La chica aplaude',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/La chica aplaude.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/5.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La chica aplaude.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/5.mp3'
       },
       {
         'image': 'images/La chica aplaude.jpg'
@@ -112,9 +112,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'El caballo salta',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/El caballo salta.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/6.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El caballo salta.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/6.mp3'
       },
       {
         'image': 'images/El caballo salta.jpg'
@@ -133,9 +133,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'Los muchachos viajan',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/Los muchachos viajan.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/7.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Los muchachos viajan.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/7.mp3'
       },
       {
         'image': 'images/Los muchachos viajan.jpg'
@@ -154,9 +154,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'Las estrellas brillan',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/Brillan las estrellas.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/8.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Brillan las estrellas.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/8.mp3'
       },
       {
         'image': 'images/Brillan las estrellas.jpg'
@@ -175,9 +175,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'Cayó un avión',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Cae un avion.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/9.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Cae un avion.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/9.mp3'
       },
       {
         'image': 'images/Cae un avion.jpg'
@@ -196,9 +196,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'Se durmió el bebé',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Se durmio el bebe.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/10.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Se durmio el bebe.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/10.mp3'
       },
       {
         'image': 'images/Se durmio el bebe.jpg'
@@ -217,9 +217,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'Llega papá',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Llega papa.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/11.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Llega papa.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/11.mp3'
       },
       {
         'image': 'images/Llega papa.jpg'
@@ -238,9 +238,9 @@ var niveles_oraciones_sintactica 	= [ //Niveles
       {
         'text': 'Ganó el atleta',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Gano el atleta.mp3',
+        'sound': '/android_asset/www/audio/Oraciones1/12.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Gano el atleta.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones1/12.mp3'
       },
       {
         'image': 'images/Gano el atleta.jpg'
@@ -266,9 +266,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El hombre enciende la vela',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El hombre enciende la vela.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/1.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre enciende la vela.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/1.mp3'
       },
       {
         'image': 'images/El hombre enciende la vela.jpg'
@@ -287,9 +287,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El hombre lleva un bolso',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El hombre lleva un bolso.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/2.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre lleva un bolso.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/2.mp3'
       },
       {
         'image': 'images/El hombre lleva un bolso.jpg'
@@ -308,9 +308,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El hombre enciende un cigarrillo',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El hombre enciende el cigarrillo.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/3.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre enciende el cigarrillo.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/3.mp3'
       },
       {
         'image': 'images/El hombre enciende el cigarrillo.jpg'
@@ -329,9 +329,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La mujer lleva un bolso',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/La chica lleva un bolso.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/4.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La chica lleva un bolso.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/4.mp3'
       },
       {
         'image': 'images/La chica lleva un bolso.jpg'
@@ -350,9 +350,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El hombre lava el auto',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El hombre lava el auto.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/5.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre lava el auto.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/5.mp3'
       },
       {
         'image': 'images/El hombre lava el auto.jpg'
@@ -371,9 +371,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El hombre lleva un bolso',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El hombre lleva un bolso.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/6.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre lleva un bolso.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/6.mp3'
       },
       {
         'image': 'images/El hombre lleva un bolso.jpg'
@@ -392,9 +392,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Una canción escucha el nene',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Una cancion escucha el nene.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/7.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Una cancion escucha el nene.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/7.mp3'
       },
       {
         'image': 'images/Una cancion escucha el nene.jpg'
@@ -413,9 +413,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Una canción canta el nene',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Una cancion canta el nene.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/8.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Una cancion canta el nene.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/8.mp3'
       },
       {
         'image': 'images/Una cancion canta el nene.jpg'
@@ -434,9 +434,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Bananas vende la mujer',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Bananas vende la mujer.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/9.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Bananas vende la mujer.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/9.mp3'
       },
       {
         'image': 'images/Bananas vende la mujer.jpg'
@@ -455,9 +455,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Un globo infla el nene',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Un globo infla el nene.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/10.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Un globo infla el nene.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/10.mp3'
       },
       {
         'image': 'images/Un globo infla el nene.jpg'
@@ -476,9 +476,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Un globo patea el nene',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Un globo patea el nene.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/11.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Un globo patea el nene.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/11.mp3'
       },
       {
         'image': 'images/Un globo patea el nene.jpg'
@@ -497,9 +497,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Uvas compra la mujer',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Uvas compra la mujer.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/12.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Uvas compra la mujer.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/12.mp3'
       },
       {
         'image': 'images/Uvas compra la mujer.jpg'
@@ -518,9 +518,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Una moto maneja la abuela',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Una moto maneja la abuela.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/13.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Una moto maneja la abuela.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/13.mp3'
       },
       {
         'image': 'images/Una moto maneja la abuela.jpg'
@@ -539,9 +539,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Choclo come el loro',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Choclo come el loro.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/14.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Choclo come el loro.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/14.mp3'
       },
       {
         'image': 'images/Choclo come el loro.jpg'
@@ -560,9 +560,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La media se pone el hombre',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/La media se pone el hombre.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/15.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La media se pone el hombre.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/15.mp3'
       },
       {
         'image': 'images/La media se pone el hombre.jpg'
@@ -581,9 +581,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La mujer pasea un perro',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/La mujer pasea al perro.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/16.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La mujer pasea al perro.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/16.mp3'
       },
       {
         'image': 'images/La mujer pasea al perro.jpg'
@@ -602,9 +602,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El chico toma un helado',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/El chico toma helado.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/17.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El chico toma helado.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/17.mp3'
       },
       {
         'image': 'images/El chico toma helado.jpg'
@@ -623,9 +623,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Los chicos leen un libro',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/18.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/18.mp3'
       },
       {
         'image': 'images/Los chicos leen el libro.jpg'
@@ -644,9 +644,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'Las chicas toman un helado',
         'type': 'concordancia',
-        'sound': '/android_asset/www/audio/Las chicas toman helado.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/19.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Las chicas toman helado.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/19.mp3'
       },
       {
         'image': 'images/Las chicas toman helado.jpg'
@@ -665,9 +665,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La madre besa al hijo',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/La madre besa al hijo.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/20.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La madre besa al hijo.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/20.mp3'
       },
       {
         'image': 'images/La madre besa al hijo.jpg'
@@ -686,9 +686,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La madre abraza al hijo',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/La madre abraza al hijo.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/21.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La madre abraza al hijo.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/21.mp3'
       },
       {
         'image': 'images/La madre abraza al hijo.jpg'
@@ -707,9 +707,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La mujer besa al perro',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/La mujer besa al perro.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/22.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La mujer besa al perro.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/22.mp3'
       },
       {
         'image': 'images/La mujer besa al perro.jpg'
@@ -728,9 +728,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'El hombre besa al perro',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/El hombre besa al perro.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/23.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre besa al perro.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/23.mp3'
       },
       {
         'image': 'images/El hombre besa al perro.jpg'
@@ -749,9 +749,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La mujer maquilla al hombre',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/la mujer maquilla al hombre.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/24.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/la mujer maquilla al hombre.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/24.mp3'
       },
       {
         'image': 'images/la mujer maquilla al hombre.jpg'
@@ -770,9 +770,9 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       {
         'text': 'La mujer maquilla a la nena',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/la mujer maquilla a la nena.mp3',
+        'sound': '/android_asset/www/audio/Oraciones2/25.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/la mujer maquilla a la nena.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones2/25.mp3'
       },
       {
         'image': 'images/la mujer maquilla a la nena.jpg'
@@ -796,9 +796,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El médico le toma la presión al señor',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El medico le toma la presion al senor.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/1.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El medico le toma la presion al senor.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/1.mp3'
       },
       {
         'image': 'images/El medico le toma la presion al senor.jpg'
@@ -817,9 +817,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El mozo le sirve la comida a la mujer',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/el mozo le sirve comida a la chica.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/2.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/el mozo le sirve comida a la chica.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/2.mp3'
       },
       {
         'image': 'images/el mozo le sirve comida a la chica.jpg'
@@ -838,9 +838,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El médico le toma al pulso al abuelo',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El medico le toma el pulso al abuelo.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/3.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El medico le toma el pulso al abuelo.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/3.mp3'
       },
       {
         'image': 'images/El medico le toma el pulso al abuelo.jpg'
@@ -859,9 +859,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El mozo le sirve vino a la pareja',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/El mozo le sirve vino a la pareja.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/4.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El mozo le sirve vino a la pareja.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/4.mp3'
       },
       {
         'image': 'images/El mozo le sirve vino a la pareja.jpg'
@@ -880,9 +880,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La doctora le controla la fiebre al nene',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/La doctora controla la fiebre al nene.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/5.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La doctora controla la fiebre al nene.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/5.mp3'
       },
       {
         'image': 'images/La doctora controla la fiebre al nene.jpg'
@@ -901,9 +901,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El mozo le sirve comida a la chica',
         'type': 'ordenCanonico',
-        'sound': '/android_asset/www/audio/el mozo le sirve comida a la chica.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/6.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/el mozo le sirve comida a la chica.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/6.mp3'
       },
       {
         'image': 'images/el mozo le sirve comida a la chica.jpg'
@@ -922,9 +922,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La mujer le da un regalo al hombre',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/La mujer le da un regalo al hombre.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/7.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La mujer le da un regalo al hombre.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/7.mp3'
       },
       {
         'image': 'images/La mujer le da un regalo al hombre.jpg'
@@ -943,9 +943,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El hombre le da dinero a la mujer',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/El hombre le da dinero a la mujer.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/8.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre le da dinero a la mujer.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/8.mp3'
       },
       {
         'image': 'images/El hombre le da dinero a la mujer.jpg'
@@ -964,9 +964,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El empresario le señala la pantalla a la mujer',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/El hombre le senala la pantalla a la mujer.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/9.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre le senala la pantalla a la mujer.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/9.mp3'
       },
       {
         'image': 'images/El hombre le senala la pantalla a la mujer.jpg'
@@ -985,9 +985,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'El empresario le señala la pantalla a la mujer',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/El hombre le senala la pantalla a la mujer.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/10.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/El hombre le senala la pantalla a la mujer.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/10.mp3'
       },
       {
         'image': 'images/El hombre le senala la pantalla a la mujer.jpg'
@@ -1006,9 +1006,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La chica le corta el pelo al muchacho',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/La chica le corta el pelo al muchacho.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/11.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La chica le corta el pelo al muchacho.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/11.mp3'
       },
       {
         'image': 'images/La chica le corta el pelo al muchacho.jpg'
@@ -1027,9 +1027,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La chica le seca el pelo al muchacho',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/La chica le seca el pelo al muchacho.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/12.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/La chica le seca el pelo al muchacho.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/12.mp3'
       },
       {
         'image': 'images/La chica le seca el pelo al muchacho.jpg'
@@ -1048,9 +1048,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La mujer le muestra un teléfono al novio',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/la mujer le muestra el telefono al novio.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/13.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/la mujer le muestra el telefono al novio.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/13.mp3'
       },
       {
         'image': 'images/la mujer le muestra el telefono al novio.jpg'
@@ -1069,9 +1069,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La mujer le muestra un teléfono al vendedor',
         'type': 'reversibles',
-        'sound': '/android_asset/www/audio/la mujer le muestra un telefono al vendedor.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/13.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/la mujer le muestra un telefono al vendedor.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/13.mp3'
       },
       {
         'image': 'images/la mujer le muestra un telefono al vendedor.jpg'
@@ -1090,9 +1090,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'Chocolate le pone el chef a la torta',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Chocolate le pone el chef a la torta.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/14.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Chocolate le pone el chef a la torta.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/14.mp3'
       },
       {
         'image': 'images/Chocolate le pone el chef a la torta.jpg'
@@ -1111,9 +1111,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'A los alumnos el profesor les enseña matemática',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Matematicas ensena el profesor a los alumnos.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/15.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Matematicas ensena el profesor a los alumnos.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/15.mp3'
       },
       {
         'image': 'images/Matematicas ensena el profesor a los alumnos.jpg'
@@ -1132,9 +1132,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'La oreja le revisa la veterinaria al gato',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/16.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/16.mp3'
       },
       {
         'image': 'images/Las orejas le revisa la veterinaria al gato.jpg'
@@ -1153,9 +1153,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'Al marido le mostró la mujer una tarjeta roja',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Al marido le mostro la mujer una tarjeta roja.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/17.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Al marido le mostro la mujer una tarjeta roja.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/17.mp3'
       },
       {
         'image': 'images/Al marido le mostro la mujer una tarjeta roja.jpg'
@@ -1174,9 +1174,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'Las llaves entregó el mecánico al hombre',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Las llaves le entrega el mecanico al chico.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/18.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Las llaves le entrega el mecanico al chico.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/18.mp3'
       },
       {
         'image': 'images/Las llaves le entrega el mecanico al chico.jpg'
@@ -1195,9 +1195,9 @@ var niveles_oraciones_tematica 	= [ //Niveles
       {
         'text': 'A la comida la cocinera le agrega pimienta',
         'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/A la comida la cocinera le agrega pimienta.mp3',
+        'sound': '/android_asset/www/audio/Oraciones3/19.mp3',
         'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/A la comida la cocinera le agrega pimienta.mp3'
+        'wordSound' : '/android_asset/www/audio/Oraciones3/19.mp3'
       },
       {
         'image': 'images/A la comida la cocinera le agrega pimienta.jpg'
