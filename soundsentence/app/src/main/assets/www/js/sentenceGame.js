@@ -123,16 +123,19 @@ function permitirCambio(texto, sonidoCorrecto){
 }
 
 function ejecutarAudio(audio, cambio){
-	if (!sonido_activado) return;
+	//if (!sonido_activado) return;
 	sonido_activado = false;
 	try{
 		my_media = new Media(audio, function(){
 		    sonido_activado = true;
+			my_media.stop();
+			my_media.release();
 		});
 		my_media.play();
 	}catch(e){
 		//No estoy en un dispositivo:
 		alert('No estoy en un dispositivo. Quiero ejecutar ' + audio);
+		sonido_activado = true;
 	}
 }
 

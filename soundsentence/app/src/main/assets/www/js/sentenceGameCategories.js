@@ -215,7 +215,7 @@ var niveles_oraciones_sintactica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'Llega papá',
+        'text': 'Entra papá',
         'type': 'ordenNoCanonico',
         'sound': '/android_asset/www/audio/Oraciones1/11.mp3',
         'correct': 1, 
@@ -418,13 +418,13 @@ var niveles_oraciones_semantica	 	= [ //Niveles
         'wordSound' : '/android_asset/www/audio/Oraciones2/8.mp3'
       },
       {
-        'image': 'images/Una cancion canta el nene.jpg'
+        'image': 'images/Una cancion canta la nena.jpg'
       },
       {
         'image': 'images/Una cancion escucha el nene.jpg'
       },
       {
-        'image': 'images/Una cancion canta la nena.jpg'
+        'image': 'images/Una cancion canta el nene.jpg'
       },
       {
         'image': 'images/Una cancion escucha la nena.jpg'
@@ -474,20 +474,20 @@ var niveles_oraciones_semantica	 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'Un globo patea el nene',
+        'text': 'Una pelota patea el nene',
         'type': 'ordenNoCanonico',
         'sound': '/android_asset/www/audio/Oraciones2/11.mp3',
         'correct': 1, 
         'wordSound' : '/android_asset/www/audio/Oraciones2/11.mp3'
       },
       {
-        'image': 'images/Un globo patea el nene.jpg'
+        'image': 'images/Una pelota patea el nene.jpg'
       },
       {
         'image': 'images/Un globo infla el nene.jpg'
       },
       {
-        'image': 'images/Una pelota patea el nene.jpg'
+        'image': 'images/Un globo patea el nene.jpg'
       },
       {
         'image': 'images/Una pelota infla el nene.jpg'
@@ -554,27 +554,6 @@ var niveles_oraciones_semantica	 	= [ //Niveles
       },
       {
         'image': 'images/Sandia come el mono.jpg'
-      }
-    ],
-    [ //Sub-nivel
-      {
-        'text': 'La media se pone el hombre',
-        'type': 'ordenNoCanonico',
-        'sound': '/android_asset/www/audio/Oraciones2/15.mp3',
-        'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Oraciones2/15.mp3'
-      },
-      {
-        'image': 'images/La media se pone el hombre.jpg'
-      },
-      {
-        'image': 'images/La media se pone la mujer.jpg'
-      },
-      {
-        'image': 'images/El zapato se pone el hombre.jpg'
-      },
-      {
-        'image': 'images/El zapato se pone la mujer.jpg'
       }
     ],
     [ //Sub-nivel
@@ -1025,17 +1004,17 @@ var niveles_oraciones_tematica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'La chica le seca el pelo al muchacho',
+        'text': 'El muchacho le seca el pelo a la chica',
         'type': 'reversibles',
         'sound': '/android_asset/www/audio/Oraciones3/12.mp3',
         'correct': 1, 
         'wordSound' : '/android_asset/www/audio/Oraciones3/12.mp3'
       },
       {
-        'image': 'images/La chica le seca el pelo al muchacho.jpg'
+        'image': 'images/El muchacho le seca el pelo a la chica.jpg'
       },
       {
-        'image': 'images/El muchacho le seca el pelo a la chica.jpg'
+        'image': 'images/La chica le seca el pelo al muchacho.jpg'
       },
       {
         'image': 'images/La chica le corta el pelo al muchacho.jpg'
@@ -1067,28 +1046,7 @@ var niveles_oraciones_tematica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'La mujer le muestra un teléfono al vendedor',
-        'type': 'reversibles',
-        'sound': '/android_asset/www/audio/Oraciones3/13.mp3',
-        'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Oraciones3/13.mp3'
-      },
-      {
-        'image': 'images/la mujer le muestra un telefono al vendedor.jpg'
-      },
-      {
-        'image': 'images/el vendedor le muestra un telefono a la mujer.jpg'
-      },
-      {
-        'image': 'images/la mujer le muestra el telefono al novio.jpg'
-      },
-      {
-        'image': 'images/El novio le muestra un telefono a la mujer.jpg'
-      }
-    ],
-    [ //Sub-nivel
-      {
-        'text': 'Chocolate le pone el chef a la torta',
+        'text': 'Chocolate le pone el cocinero a la torta',
         'type': 'ordenNoCanonico',
         'sound': '/android_asset/www/audio/Oraciones3/14.mp3',
         'correct': 1, 
