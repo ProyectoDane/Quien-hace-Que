@@ -411,7 +411,7 @@ var niveles_oraciones_semantica	 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'Una canción canta el nene',
+        'text': 'Una canción canta la nena',
         'type': 'ordenNoCanonico',
         'sound': '/android_asset/www/audio/Oraciones2/8.mp3',
         'correct': 1, 
@@ -857,7 +857,7 @@ var niveles_oraciones_tematica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'La doctora le controla la fiebre al nene',
+        'text': 'La doctora le toma la fiebre al nene',
         'type': 'ordenCanonico',
         'sound': '/android_asset/www/audio/Oraciones3/5.mp3',
         'correct': 1, 
@@ -878,7 +878,7 @@ var niveles_oraciones_tematica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'El mozo le sirve comida a la chica',
+        'text': 'El mozo le sirve la comida a la chica',
         'type': 'ordenCanonico',
         'sound': '/android_asset/www/audio/Oraciones3/6.mp3',
         'correct': 1, 
@@ -1151,7 +1151,7 @@ var niveles_oraciones_tematica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'A la comida la cocinera le agrega pimienta',
+        'text': 'A la comida la mujer le pone pimienta',
         'type': 'ordenNoCanonico',
         'sound': '/android_asset/www/audio/Oraciones3/19.mp3',
         'correct': 1, 
