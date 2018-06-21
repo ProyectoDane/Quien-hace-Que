@@ -962,27 +962,6 @@ var niveles_oraciones_tematica 	= [ //Niveles
     ],
     [ //Sub-nivel
       {
-        'text': 'El empresario le señala la pantalla a la mujer',
-        'type': 'reversibles',
-        'sound': '/android_asset/www/audio/Oraciones3/10.mp3',
-        'correct': 1, 
-        'wordSound' : '/android_asset/www/audio/Oraciones3/10.mp3'
-      },
-      {
-        'image': 'images/El hombre le senala la pantalla a la mujer.jpg'
-      },
-      {
-        'image': 'images/La mujer senala la pantalla al empresario.jpg'
-      },
-      {
-        'image': 'images/El doctor le senala la pantalla a la mujer.jpg'
-      },
-      {
-        'image': 'images/La mujer le senala la pantalla al doctor.jpg'
-      }
-    ],
-    [ //Sub-nivel
-      {
         'text': 'La chica le corta el pelo al muchacho',
         'type': 'reversibles',
         'sound': '/android_asset/www/audio/Oraciones3/11.mp3',

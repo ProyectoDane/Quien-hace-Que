@@ -33,15 +33,34 @@ function crear_nivel(conf_nivel){
 	return subniveles;
 }
 
-function cargar(palabras, niveles){
+function cargar(palabras, niveles)
+{
 	var cantidad_niveles = niveles.length;
-	
+
 	for (var i = 0; i < cantidad_niveles; i++){
 		var nivel = crear_nivel(niveles[i]);
 		palabras.agregarNivel(nivel);
-	}	
-}
+	}
+   }
 
+function cargarResultados(tipo){
+		var puntaje = tipo.getPuntaje();
+		for(var property in puntaje){
+			if(puntaje.hasOwnProperty(property)){
+				var correctas = puntaje[property].correctas;
+				var incorrectas = puntaje[property].incorrectas;
+				var totales = puntaje[property].totales;
+				var porcentajeCorrectas = 0;
+				var porcentajeIncorrectas = 0;
+				if(totales > 0 ){
+					porcentajeCorrectas = parseFloat((correctas * 100 / totales).toPrecision(2));
+					porcentajeIncorrectas = parseFloat((incorrectas * 100 / totales).toPrecision(2));
+				}
+				$('#' + property + 'Correctas').html("<img src='images/check1.png' alt='check'/> <span class='right'>" + correctas + "/" + totales + " (" + porcentajeCorrectas + "%)</span>");
+				$('#' + property + 'Incorrectas').html("<img src='images/check2.png' alt='check'/> <span class='wrong'>" + incorrectas + "/" + totales + " (" + porcentajeIncorrectas + "%)</span>");
+			}
+		}
+}
 
 function createSentences(){
 	//Al iniciar el juego se cargan los niveles para los distintos modos
@@ -87,22 +106,7 @@ function llamarCambio(){
 	document.getElementById("botonSiguiente").style.visibility = "hidden";
 	var cambio = actual.cambiarSubnivel();
 	if (cambio == FIN_NIVEL){
-		var puntaje = actual.getPuntaje();
-		for(var property in puntaje){
-			if(puntaje.hasOwnProperty(property)){
-				var correctas = puntaje[property].correctas;
-				var incorrectas = puntaje[property].incorrectas;
-				var totales = puntaje[property].totales;
-				var porcentajeCorrectas = 0;
-				var porcentajeIncorrectas = 0;
-				if(totales > 0 ){
-					porcentajeCorrectas = parseFloat((correctas * 100 / totales).toPrecision(2));
-					porcentajeIncorrectas = parseFloat((incorrectas * 100 / totales).toPrecision(2));
-				}
-				$('#' + property + 'Correctas').html("<img src='images/check1.png' alt='check'/> <span class='right'>" + correctas + "/" + totales + " (" + porcentajeCorrectas + "%)</span>");
-				$('#' + property + 'Incorrectas').html("<img src='images/check2.png' alt='check'/> <span class='wrong'>" + incorrectas + "/" + totales + " (" + porcentajeIncorrectas + "%)</span>");
-			}
-		}
+	    cargarResultados(actual);
 		$.mobile.changePage('#select_category');
 	}
 }
